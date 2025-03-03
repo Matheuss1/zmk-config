@@ -106,11 +106,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans  &trans     &trans     &trans        &trans             &trans                      &trans        &trans    &trans    &trans     &trans   &trans
-&trans  &kp SQT    &kp LT     &kp GT        &kp DOUBLE_QUOTES  &kp DOT                     &kp LS(DLLR)  &kp N4    &kp UP    &trans     &kp N0   &trans
-&trans  &kp EXCL   &kp MINUS  &kp PLUS      &kp EQUAL          &kp HASH                    &kp PG_DN     &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
-&trans  &kp CARET  &kp SLASH  &kp ASTERISK  &kp BACKSLASH      &kp PIPE  &trans    &trans  &trans        &trans    &trans    &trans     &trans   &trans
-                   &trans     &trans        &trans             &trans    &trans    &trans  &trans        &trans    &trans    &trans
+&trans  &trans     &trans     &trans        &trans             &trans                      &trans     &trans      &trans                &trans                 &trans        &trans
+&trans  &kp SQT    &kp LT     &kp GT        &kp DOUBLE_QUOTES  &kp DOT                     &kp AMPS   &kp DOT     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &trans
+&trans  &kp EXCL   &kp MINUS  &kp PLUS      &kp EQUAL          &kp HASH                    &kp PIPE   &kp COLON   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
+&trans  &kp CARET  &kp SLASH  &kp ASTERISK  &kp BACKSLASH      &kp PIPE  &trans    &trans  &kp TILDE  &kp DOLLAR  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT        &trans
+                   &trans     &trans        &trans             &trans    &trans    &trans  &trans     &trans      &trans                &trans
             >;
         };
 
